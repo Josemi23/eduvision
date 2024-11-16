@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduVisions - Innovación Educativa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+        }
+        header {
+            background: #004aad;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        header img {
+            max-width: 100px;
+            display: block;
+            margin: 0 auto 10px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            background: #0072e3;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #004aad;
+            color: #fff;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #004aad;
+            color: #fff;
+            font-size: 0.9rem;
+        }
+        form input, form textarea, form button {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Logo de EduVisions">
+        <h1>EduVisions</h1>
+        <p>Innovación Educativa con Realidad Virtual</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#productos">Productos</a></li>
+            <li><a href="#soporte">Soporte</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    <section id="inicio">
+        <h2>Bienvenido a EduVisions</h2>
+        <p>Transforma tus aulas con tecnología de realidad virtual y aumentada.</p>
+        <a href="#productos" class="btn">Ver Productos</a>
+    </section>
+    <section id="productos">
+        <h2>Nuestros Productos</h2>
+        <p>Gafas de RV/RA diseñadas para educación. Precio: 70-100 €.</p>
+        <a href="#contacto" class="btn">Solicitar Información</a>
+    </section>
+    <section id="soporte">
+        <h2>Soporte Técnico</h2>
+        <p>Capacitación y soporte técnico para que aproveches al máximo nuestras gafas.</p>
+    </section>
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>¿Tienes preguntas? Contáctanos.</p>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <br>
+            <label for="email">Correo:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+            <br>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    <footer>
+        <p>© 2024 EduVisions. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
